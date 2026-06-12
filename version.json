@@ -1,0 +1,15 @@
+{
+  "app_name": "Universal Downloader",
+  "version": "1.0.0",
+  "build": 1,
+  "release_date": "2026-06-11",
+  "publisher": "Bittar Tech Lab",
+  "github_repo": "https://github.com/BittarMO/Universal-Downloader",
+  "download_url": "https://github.com/BittarMO/Universal-Downloader/releases/download/v1.0.0/Universal_Downloader_Setup.exe",
+  "checksum_sha256": "sha256:2bc590a758201948e6ce368a5d1dd51fe2744a77abdc625503d5161c54446422",
+  "changelog": [
+    "Initial release",
+    "Support for multiple download sources",
+    "Improved UI stability"
+  ]
+}
