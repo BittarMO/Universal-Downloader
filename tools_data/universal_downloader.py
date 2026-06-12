@@ -52,17 +52,15 @@ IS_FROZEN : bool = getattr(sys, "frozen", False)
 def resolve_resource_path(relative: str) -> str:
     """Return the absolute path for a bundled resource when the app is frozen."""
     base = getattr(sys, "_MEIPASS", os.path.abspath("."))
-    if not relative.startswith("Code/"):
-        relative = os.path.join("Code", relative)
     return os.path.join(base, relative)
+
 
 
 def get_base_data_dir() -> str:
     if IS_FROZEN:
-        return os.path.join(sys._MEIPASS, "Code", "tools_data")
+        return os.path.join(sys._MEIPASS, "tools_data")
     else:
-        code_dir = os.path.dirname(os.path.abspath(__file__))
-        return os.path.join(code_dir, "tools_data")
+        return os.path.dirname(os.path.abspath(__file__))
 
 
 # ── Directory & binary paths ──────────────────────────────────────────────────
@@ -4366,3 +4364,7 @@ class App(ctk.CTk):
 if __name__ == "__main__":
     app = App()
     app.mainloop()
+
+
+
+
