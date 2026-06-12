@@ -1,0 +1,21 @@
+{
+  "app_name": "Universal Downloader",
+  "version": "1.0.0",
+  "build": 1,
+  "release_date": "2026-06-11",
+  "publisher": "Bittar Tech Lab",
+  "author_email": "bittarmohamad023@gmail.com",
+  "github_repo": "https://github.com/BittarMO/Universal-Downloader",
+  "download_url": "https://github.com/BittarMO/Universal-Downloader/releases/download/v1.0.0/Universal_Downloader_Setup.exe",
+  "checksum_sha256": "2bc590a758201948e6ce368a5d1dd51fe2744a77abdc625503d5161c54446422",
+  "min_python": "3.10",
+  "changelog": [
+    "Initial public release",
+    "Support for 20+ download sources via yt-dlp",
+    "Download queue with automatic retry",
+    "Real-time progress display with speed and ETA",
+    "Persistent download history",
+    "Automatic installation of yt-dlp and FFmpeg on first run",
+    "Improved UI stability and responsiveness"
+  ]
+}
